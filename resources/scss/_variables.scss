@@ -84,7 +84,7 @@ $gray-lightest:         #f7f7f9;
 $white:                 #fff;
 $black:                 #000;
 
-$brand-primary:         #57b58a;
+$brand-primary:         #dd6902;
 $brand-secondary:       #d4021d;
 
 $brand-success:         #7ED321;
@@ -101,7 +101,7 @@ $top-bar-color:         $gray-lighter;
 $top-bar-basket-btn:    $brand-primary;
 $top-bar-basket-color:  #fff;
 
-$footer-bg:             $gray-dark;
+$footer-bg:             $black;
 $footer-color:          $white;
 
 $footer-features-bg:    $gray-dark;
@@ -119,7 +119,7 @@ $availability_5:        $brand-danger;
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $gray-dark;
+$body-bg:               $gray-lighter;
 $body-color:            $white;
 //** Global text color on `<body>`.
 $text-color:            white;
@@ -139,7 +139,7 @@ $link-hover-color:      darken($link-color, 15%);
 
 //== Typography
 //
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 //## Font, line-height, and color for body text, headings, and more.
 $font-family-sans-serif:'Open Sans', Helvetica, Arial, sans-serif;
@@ -148,7 +148,7 @@ $font-family-serif:     'Playfair Display', Georgia, 'Times New Roman', Times, s
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:      $font-family-serif;
-$font-family-heading:   'Fjalla One', sans-serif;
+$font-family-heading:   'Josefin Sans', sans-serif;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root: 14px !default;
@@ -361,18 +361,18 @@ $custom-control-disabled-indicator-bg:       #eee !default;
 $custom-control-disabled-description-color:  #767676 !default;
 
 $custom-control-checked-indicator-color:      #fff !default;
-$custom-control-checked-indicator-bg:         #0074d9 !default;
+$custom-control-checked-indicator-bg:         #e0374f !default;
 $custom-control-checked-indicator-box-shadow: none !default;
 
 $custom-control-focus-indicator-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9 !default;
 
 $custom-control-active-indicator-color:      #fff !default;
-$custom-control-active-indicator-bg:         #84c6ff !default;
+$custom-control-active-indicator-bg:         #f97f90 !default;
 $custom-control-active-indicator-box-shadow: none !default;
 
 $custom-checkbox-radius: $border-radius !default;
 $custom-checkbox-checked-icon: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E") !default;
-$custom-checkbox-indeterminate-bg: #0074d9 !default;
+$custom-checkbox-indeterminate-bg: #d98500 !default;
 $custom-checkbox-indeterminate-icon: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E") !default;
 $custom-checkbox-indeterminate-box-shadow: none !default;
 
@@ -392,7 +392,7 @@ $custom-select-border-width:  $input-btn-border-width !default;
 $custom-select-border-color:  $input-border-color !default;
 $custom-select-border-radius: $border-radius !default;
 
-$custom-select-focus-border-color: #51a7e8 !default;
+$custom-select-focus-border-color: #e8a651 !default;
 $custom-select-focus-box-shadow:   inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5) !default;
 
 $custom-select-sm-padding-y: .2rem !default;
